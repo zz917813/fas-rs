@@ -185,7 +185,7 @@ export function useConfig() {
     const updatedGameList = { ...gameList };
     delete updatedGameList[gamePackage];
     setGameList(updatedGameList);
-    toast。success("Game removed successfully!");
+    toast.success("Game removed successfully!");
     debouncedSave();
   };
 
@@ -229,7 +229,7 @@ export function useConfig() {
       await writeConfig({
         configOptions,
         gameList,
-        powerModes，
+        powerModes,
       });
       toast.success("Configuration saved successfully!");
     } catch (error) {
@@ -316,7 +316,7 @@ export function useConfig() {
         fast: data.powerModes.fast,
       })
         .replace(/\[\s+/g, "[")
-        。替换(/\s+\]/g, "]");
+        .replace(/\s+\]/g, "]");
 
       const mkdirResult = await exec(`mkdir -p /data/adb/fas-rs`, {
         cwd: "/",
