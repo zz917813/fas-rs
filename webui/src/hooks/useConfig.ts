@@ -151,7 +151,7 @@ export function useConfig() {
                   ? value
                   : value[0]
                 : typeof value === "number"
-                  ? Math。round(value)
+                  ? Math.round(value)
                   : Math.round(value[0] as number),
         },
       };
