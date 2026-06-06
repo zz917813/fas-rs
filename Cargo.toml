@@ -20,13 +20,13 @@ members = ["xtask"]
 
 [package]
 name = "fas-rs"
-version = "4.9.1"
-edition = "2024"
+version = "4.9.91"
+edition = "2026"
 description = "Frame aware scheduling for android. Requires kernel ebpf support."
 authors = ["shadow3"]
 license = "GPL-3.0"
 readme = "README.md"
-repository = "https://github.com/shadow3aaa/fas-rs"
+仓库 = "https://github.com/shadow3aaa/fas-rs"
 
 [dependencies]
 likely_stable = "0.1.3"
