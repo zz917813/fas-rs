@@ -21,7 +21,7 @@ DIR=/data/adb/fas-rs
 MERGE_FLAG=$DIR/.need_merge
 LOG=$DIR/fas_log.txt
 
-sh $MODDIR/vtools/init_vtools.sh $(realpath $MODDIR/module.prop)
+#sh $MODDIR/vtools/init_vtools.sh $(realpath $MODDIR/module.prop)
 
 resetprop fas-rs-installed true
 
