@@ -32,7 +32,7 @@ json=$(
         "pedestal": true
     },
     "module": "fas_rs",
-    "state": "/dev/fas_rs/mode",
+    "state": "/data/adb/fas-rs/mode",
     "entry": "/data/powercfg.sh",
     "projectUrl": "https://github.com/shadow3aaa/fas-rs"
 }
