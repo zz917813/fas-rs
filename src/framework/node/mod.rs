@@ -69,8 +69,8 @@ impl Node {
         }
 
         self.map
-            。get_mut(id)
-            。map_or_else(|| Err(Error::NodeNotFound), |value| Ok(value.clone()))
+            .get_mut(id)
+            .map_or_else(|| Err(Error::NodeNotFound), |value| Ok(value.clone()))
     }
 
     fn refresh(&mut self) -> Result<()> {
